@@ -1,0 +1,27 @@
+{
+  "private": "true",
+  "workspaces": [
+    "packages/*",
+    "frontend"
+  ],
+  "name": "monorepo-yarn-workspace-example",
+  "version": "1.0.0",
+  "description": "yarn workspace example",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@lerna/batch-packages": "^3.16.0",
+    "@lerna/filter-packages": "^3.18.0",
+    "@lerna/project": "^3.21.0",
+    "lerna": "^3.22.1",
+    "minimist": "^1.2.5",
+    "rollup": "^2.32.1",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}

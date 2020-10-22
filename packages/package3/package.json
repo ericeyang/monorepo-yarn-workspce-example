@@ -1,0 +1,21 @@
+{
+  "name": "@packages/util",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}

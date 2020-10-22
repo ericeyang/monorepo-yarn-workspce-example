@@ -1,0 +1,10 @@
+{
+  "private":"true",
+  "name": "client",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@nimo-fed/http": "1.0.0",
+    "@nimo-fed/util": "1.0.0"
+  }
+}
