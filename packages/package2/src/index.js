@@ -1,6 +1,6 @@
 function taf() {
   return {
-    a: 1
+    a: 2
   };
 }
 
