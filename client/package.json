@@ -2,9 +2,5 @@
   "private":"true",
   "name": "client",
   "version": "1.0.0",
-  "license": "MIT",
-  "dependencies": {
-    "@packages/http": "1.0.0",
-    "@packages/util": "1.0.0"
-  }
+  "license": "MIT"
 }
