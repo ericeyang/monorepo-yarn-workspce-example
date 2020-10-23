@@ -1,5 +1,7 @@
 function util() {
-  return {};
+  return {
+    b: 1
+  };
 }
 
 module.exports = util;
