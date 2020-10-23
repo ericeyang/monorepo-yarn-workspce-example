@@ -8,6 +8,7 @@
     "index.js"
   ],
   "dependencies": {
+    "@packages/taf": "^1.0.1-alpha.0",
     "lodash": "^4.17.20"
   }
 }
